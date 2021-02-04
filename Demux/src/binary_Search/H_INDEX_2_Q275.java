@@ -33,6 +33,16 @@ public class H_INDEX_2_Q275 {
        }
 		System.out.println(n-low);
 		
+//		 if(n > 0 && nums[n-1] == 0) 
+//	            return 0;
+//	        while(lo<hi){
+//	            int mid = lo + (hi-lo)/2;
+//	            if(nums[mid] >= (n-mid))
+//	                hi = mid;
+//	            else
+//	                lo = mid +1;
+//	        }
+//	        return n-lo;	
 		
 	}
 

@@ -8,7 +8,7 @@ public class Combinations_Q77 {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int k=sc.nextInt();
-		List<List<Integer>> res= new ArrayList<List<Integer>>();
+		List<List<Integer>> res= new ArrayList<>();
 		//List<Integer> currSet=new ArrayList<>();
 		
 		f(1,n,k,new ArrayList<>(),res);
